@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     sillaMarkerid.forEach(sillaMarker => {
         sillaMarker.addEventListener('click', function () {
             const sillaNimi = this.getAttribute('silla-nimi');
-            const link = this.getAttribute('silla-link');
+            const link = this.getAttribute('silla-info');
             window.open(link, '_blank');
         });
 
