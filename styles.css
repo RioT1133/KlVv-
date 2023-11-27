@@ -54,3 +54,9 @@ body {
 display: flex;
 flex-wrap: nowrap;
 }
+.Tekst {
+width:50%;
+}
+.Pildid {
+width:50%;
+}
