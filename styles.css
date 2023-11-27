@@ -50,3 +50,7 @@ body {
     width: 10px;
     height: 10px;
 }
+.Keha {
+display: flex;
+flex-wrap: nowrap;
+}
