@@ -101,3 +101,7 @@ p.menu {
       color: inherit;
  }
 
+.Pildid img {
+	width: 500px;
+	height: auto;
+}
