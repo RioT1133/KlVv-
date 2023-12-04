@@ -1,5 +1,5 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Inria sans', sans-serif;
 }
 #map-container {
     position: absolute;
@@ -7,7 +7,6 @@ body {
 
 #map {
     max-width: 100%;
-    height: auto;
     display: block;
 }
 
@@ -20,33 +19,109 @@ body {
     cursor: pointer;
 }
 
-.silla-marker[silla-nimi="Kroonuaia sild"] {
+.silla-marker[id="Kroonuaia_sild"] {
     top: 18%;
     left: 31%; 
 }
-.silla-marker[silla-nimi="Vabadussild"] {
+.silla-marker[id="Vabadussild"] {
     top: 23%;
     left: 34%; 
 }
-.silla-marker[silla-nimi="Kaarsild"] {
+.silla-marker[id="Kaarsild"] {
     top: 42%;
     left: 37%; 
 }
-.silla-marker[silla-nimi="Rahu sild"] {
+.silla-marker[id="Rahu_sild"] {
     top: 49%;
     left: 43.5%; 
 }
-.silla-marker[silla-nimi="Turusild"] {
+.silla-marker[id="Turusild"] {
     top: 52%;
     left: 54%; 
 }
-.silla-marker[silla-nimi="Sõpruse sild"] {
+.silla-marker[id="Sõpruse_sild"] {
     top: 84.5%;
     left: 61.5%; 
 }
-.silla-marker[silla-nimi="Ihaste sild"] {
+.silla-marker[id="Ihaste_sild"] {
     top: 93%;
     left: 94%; 
     width: 10px;
     height: 10px;
+}
+.Keha {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Tekst {
+    width:50%;
+    padding-top: 1%;
+    font-size: 20px;
+}
+.Pildid {
+    width:50%;
+    padding: 3%;
+}
+
+.päis {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.pjoon{
+    background-color: red;
+    width: 100%;
+    height: 4px;
+    
+}
+
+.menu {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-right: 5%;
+}
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+p.menu {
+    font-size: 1px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Pildid img {
+    width: 100%;
+    height: auto;
+}
+
+.TekstM {
+    position: absolute;
+    width: 50%;
+    max-width: fit-content;
+    left:inherit;
+    padding-top: 1%;
+    font-size: 20px;
+    margin-left: 60%;
+}
+
+#Mainkeha {
+    padding-top: 1%;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px #d9d9d9;
 }
