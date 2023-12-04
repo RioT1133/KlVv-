@@ -55,10 +55,13 @@ display: flex;
 flex-wrap: nowrap;
 }
 .Tekst {
-width:50%;
+	width:50%;
+	padding-top: 1%;
+	font-size: 20px;
 }
 .Pildid {
-width:50%;
+	width:50%;
+	padding: 3%;
 }
 
 .päis {
